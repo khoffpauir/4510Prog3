@@ -1,7 +1,7 @@
 with Ada.Text_IO; use Ada.Text_IO;
 with Ada.Integer_Text_IO; use Ada.Integer_Text_IO;
 
-procedure AdaPartA is
+procedure AdaSort is
   x : Integer;
   y : Integer;
   z : Integer;
@@ -12,4 +12,4 @@ begin
    Get (y);
    z := x + y;
    Put_Line(Integer'Image (x) & " + " & Integer'Image (y) & " = " & Integer'Image (z));
-end AdaPartA;
+end AdaSort;
