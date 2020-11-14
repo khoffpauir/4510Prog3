@@ -1,4 +1,6 @@
-package Java3;
+package com.khoffpauir;
+
+//simple fruit class
 public class Fruit implements Comparable<Fruit> {
     public final String name;
     public final int id;
@@ -10,15 +12,16 @@ public class Fruit implements Comparable<Fruit> {
 
     @Override
     public String toString() {
+
         return name + ":" + id;
     }
 
-    @Override
-    /** 
-     *   The natural ordering for 'Fruit' objects is by the 'name' field. 
+    /**
+     *   The ordering for 'Fruit' objects is by the 'name' field.
      *   Override the compareTo function in order to have < > = overriden
      **/
-    public int compareTo(Fruit o) {
-        return name.compareTo(o.name);
+    @Override
+    public int compareTo(Fruit f) {
+        return name.compareTo(f.name);
     }
 }
