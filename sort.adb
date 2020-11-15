@@ -1,4 +1,7 @@
-
+-- Names: Nathan Markle and Kyle Hoffpauir
+-- Date: 11/10/2020
+-- Description: sort.adb will create objects within Ada, put them into a vector, print the unsorted
+--  contents of that vector, sort the vector, and then print out the newly sorted contents of the vector.
 
 with Ada.Text_IO; use Ada.Text_IO;
 with Ada.Containers.Vectors;
