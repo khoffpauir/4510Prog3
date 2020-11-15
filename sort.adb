@@ -2,6 +2,10 @@
 -- Date: 11/10/2020
 -- Description: sort.adb will create objects within Ada, put them into a vector, print the unsorted
 --  contents of that vector, sort the vector, and then print out the newly sorted contents of the vector.
+--
+-- To compile:
+--    chmod +x ada_compile.sh
+--    ./sort
 
 with Ada.Text_IO; use Ada.Text_IO;
 with Ada.Containers.Vectors;
